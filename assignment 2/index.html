@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url("bg.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: papayawhip;
+        }
+        
+        #div1 {
+            max-width: 50%;
+            margin: auto;
+            border: 3px dotted white;
+            padding: 10px;
+        }
+        
+        #mgin {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <br/><br/>
+    <marquee direction="left" height="300px">
+        <h1>Currency Converter</h1>
+        <img id="mgin" src="https://media.giphy.com/media/mCghKeLLkjgttG9lK9/giphy.gif">
+        <img id="mgin" src="https://media.giphy.com/media/5C3Zrs5xUg5fHV4Kcf/giphy.gif"> </marquee>
+
+    <br/><br/>
+    <div id="div1">
+
+        <label for="Base Currency"><b>Base Currency</b></label>
+        <br/> <br/>
+
+        <select class="form-control " name="currency" id="convert1" onChange="first()" oninput="first()" onClick="first(0)">
+        <option value="BDTK">Taka</option>
+        <option value="doller">USD</option>
+        <option value="INR">INR</option>
+        <option value="EURO">Euro</option>
+        <option value="DNR">Dinar</option>
+
+
+
+    
+        </select>
+        <br/> <br/>
+
+        <input class="form-control" type="number" id="input" onClick="first()" oninput="first()">
+        <br/> <br/>
+        <label for="Target Currency"><b>Target Currency</b></label>
+        <br/> <br/>
+
+        <select class="form-control" name="currency" id="convert2" onChange="first()" oninput="first()" onClick="first(0)">
+    <option value="BDTK1">Taka</option>
+    <option value="doller1">USD</option>
+    <option value="INR1">INR</option>
+    <option value="EURO1">Euro</option>
+    <option value="DNR1">Dinar</option>
+
+
+
+    </select>
+        <br/> <br/>
+
+        <input class="form-control" type="number" id="output" onClick="first()" oninput="first()">
+
+
+    </div>
+    <br/> <br/>
+    <br/> <br/>
+    <br/> <br/> <br/> <br/>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
